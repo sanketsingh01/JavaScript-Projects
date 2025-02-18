@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(./aeonikpro_regular.CVLfaHXd.woff2);
+}
+
+body{
+    text-align: center;
+    margin-top: 80px;
+    font-family: Regular;
+    background-color: #f2f2e8;
+}
+
+#heading{
+    margin: 10px 0;
+    font-size: 70px;
+    font-family: Regular;
+}
+
+#para{
+    font-size: 50px;
+    font-family: Regular;
+    margin-bottom: 40px;
+}
+
+.container{
+    /* border: 1px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+#Inputfield{
+    height: 38px;
+    width: 18%;
+    padding: 7px 7px;
+    margin-right: 7px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.add-btn{
+    height: 38px;
+    width: 80px;
+    font-size: 17px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: #b0ec9c;
+    cursor: pointer;
+}
+
+.clear-btn{
+    height: 38px;
+    width: 100px;
+    font-size: 15px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: #b0ec9c;
+    cursor: pointer;
+    font: 400;
+}
+
+.Items-container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 0 200px;
+}
+
+.Todo-Items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 0;
+}
+
+li{
+    list-style-type: none;
+    font-size: 23px;
+    /* width: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 10px;
+    /* background-color: #FFE2A8; */
+    background-color: #cfc2ff;
+}
+
+li p{
+    margin-right: 300px;
+}
+
+li button {
+    font-size: 20px;
+    padding: 3px 7px;
+    border-radius: 7px;
+    background-color: #b0ec9c;
+}
+
+#del-btn{
+    margin-right: 10px;
+}
+
+.add-btn:hover{
+    transform: translateY(-3px);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.clear-btn:hover{
+    transform: translateY(-3px);
+    transition: all 0.2s ease-in-out;
+}
+
+li button:hover{
+    background-color: #ed0274;
+    color: #ffffff;
+}
